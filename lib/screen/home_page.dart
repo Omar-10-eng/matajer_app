@@ -93,7 +93,7 @@ class MainHomeContent extends StatelessWidget {
           height: 56,
           child: Row(
             children: [
-              // 🔍 خانة السيرش
+  
               Expanded(
                 child: Container(
                   height: 56,
@@ -125,7 +125,7 @@ class MainHomeContent extends StatelessWidget {
 
               const SizedBox(width: 12),
 
-              // 🛒 زر الكارت
+              
               Container(
                 width: 48,
                 height: 48,
@@ -147,7 +147,7 @@ class MainHomeContent extends StatelessWidget {
                   iconSize: 24,
                   onPressed: () {
                     print('Cart icon pressed');
-                    // ممكن هنا تروح لصفحة الكارت مثلاً
+                
                   },
                 ),
               ),

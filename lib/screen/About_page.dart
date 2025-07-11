@@ -310,7 +310,7 @@ class _AboutPageState extends State<AboutPage> {
   }
 }
 
-// === Circle Color Widget ===
+
 class CircleColor extends StatelessWidget {
   const CircleColor({required this.color, this.isSelected = false});
   final Color color;
@@ -333,7 +333,7 @@ class CircleColor extends StatelessWidget {
   }
 }
 
-// === SpecificationsTab Widget ===
+
 class SpecificationsTab extends StatelessWidget {
   const SpecificationsTab({
     required this.text,
@@ -406,7 +406,7 @@ class SpecificationsTab extends StatelessWidget {
   }
 }
 
-// === ReviewTile Widget ===
+
 class ReviewTile extends StatelessWidget {
   final String userName;
   final int rating;

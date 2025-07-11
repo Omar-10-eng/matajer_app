@@ -74,14 +74,14 @@ class _SignupPageState extends State<SignupPage> {
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(64),
           borderSide: const BorderSide(
-            color: Colors.grey, // اللون الرمادي في الحالة العادية
+            color: Colors.grey, 
             width: 1.5,
           ),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(64),
           borderSide: const BorderSide(
-            color: Color(0xff2B70B1), // اللون الأزرق لما المستخدم يضغط
+            color: Color(0xff2B70B1), 
             width: 2,
           ),
         ),

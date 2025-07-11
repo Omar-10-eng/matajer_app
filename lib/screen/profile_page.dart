@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:matajer_app/screen/setting_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:matajer_app/screen/start_page.dart'; // غيّر المسار لو مختلف
+import 'package:matajer_app/screen/start_page.dart';  
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -64,8 +64,8 @@ class ProfilePage extends StatelessWidget {
 
           GestureDetector(
             onTap: () async {
-              await GoogleSignIn().signOut(); // تسجيل الخروج من جوجل
-              await FirebaseAuth.instance.signOut(); // تسجيل الخروج من Firebase
+              await GoogleSignIn().signOut(); 
+              await FirebaseAuth.instance.signOut();  
 
               Navigator.pushAndRemoveUntil(
                 context,

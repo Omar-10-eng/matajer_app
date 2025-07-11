@@ -169,7 +169,7 @@ class PaymentMethods extends StatefulWidget {
 }
 
 class _PaymentMethodsState extends State<PaymentMethods> {
-  bool isChecked = false; // حالة التشييك
+  bool isChecked = false; 
 
   @override
   Widget build(BuildContext context) {

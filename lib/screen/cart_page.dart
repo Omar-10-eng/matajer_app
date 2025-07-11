@@ -41,7 +41,7 @@ void showAddToCartBottomSheet(BuildContext context, String name, String price) {
                     ),
                     const SizedBox(height: 24),
 
-                    /// ✅ Success Row
+              
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -64,7 +64,7 @@ void showAddToCartBottomSheet(BuildContext context, String name, String price) {
                     ),
                     const SizedBox(height: 24),
 
-                    /// 💵 Price Field
+              
                     Container(
                       padding: const EdgeInsets.symmetric(
                         horizontal: 16,
@@ -96,7 +96,7 @@ void showAddToCartBottomSheet(BuildContext context, String name, String price) {
                     ),
                     const SizedBox(height: 24),
 
-                    /// 🔵 Continue Shopping Button
+          
                     OutlinedButton(
                       onPressed: () => Navigator.of(context).pop(),
                       style: OutlinedButton.styleFrom(
@@ -111,10 +111,10 @@ void showAddToCartBottomSheet(BuildContext context, String name, String price) {
                     ),
                     const SizedBox(height: 12),
 
-                    /// 🔵 View Cart Button
+                  
                     ElevatedButton(
                       onPressed: () {
-                        // TODO: Navigate to cart page
+                
                       },
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(vertical: 14),
@@ -322,7 +322,7 @@ class Phoness extends StatelessWidget {
                                           ),
                                         );
 
-                                        // يمكنك التنقل إلى صفحة السلة هنا إذا أردت
+                                  
                                       },
                                       style: ElevatedButton.styleFrom(
                                         backgroundColor: const Color(

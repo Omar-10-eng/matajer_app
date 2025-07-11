@@ -35,7 +35,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Product card
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
@@ -112,7 +111,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
                             const Spacer(),
                             TextButton.icon(
                               onPressed: () {
-                                // remove logic
                               },
                               icon: const Icon(Icons.delete_outline),
                               label: const Text("Remove"),
@@ -130,7 +128,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
             ),
             const SizedBox(height: 24),
 
-            // Promo code
             const Text(
               "Promocode",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -152,7 +149,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
             ),
             const SizedBox(height: 40),
 
-            // Delivery address
             const Text(
               "Delivery address",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -174,7 +170,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
             ),
             const SizedBox(height: 40),
 
-            // Total
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -214,7 +209,6 @@ class _ViewCartPageState extends State<ViewCartPage> {
             ),
             const SizedBox(height: 40),
 
-            // Checkout
             SizedBox(
               width: double.infinity,
               height: 50,

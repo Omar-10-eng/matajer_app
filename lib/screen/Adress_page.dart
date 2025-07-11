@@ -18,9 +18,9 @@ class _AdressPageState extends State<AdressPage> {
   final LatLng _targetLocation = const LatLng(
     31.203013075854702,
     29.88152693303535,
-  ); // الأهرامات
+  ); 
 
-  String selectedAddress = 'Location'; // العنوان الابتدائي
+  String selectedAddress = 'Location'; 
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
@@ -35,7 +35,7 @@ class _AdressPageState extends State<AdressPage> {
       selectedAddress = newAddress;
        _locationSelected = true;
 
-      // إضافة ماركر للموقع الجديد
+    
       _markers = {
         Marker(
           markerId: MarkerId("targetLocation"),
@@ -43,7 +43,7 @@ class _AdressPageState extends State<AdressPage> {
           infoWindow: InfoWindow(title: newAddress),
           icon: BitmapDescriptor.defaultMarkerWithHue(
             BitmapDescriptor.hueAzure,
-          ), // يمكنك تخصيص اللون
+          ), 
         ),
       };
     });
@@ -60,7 +60,7 @@ class _AdressPageState extends State<AdressPage> {
       ),
       body: Stack(
         children: [
-          // الخريطة
+        
           GoogleMap(
             onMapCreated: _onMapCreated,
             initialCameraPosition: CameraPosition(
@@ -70,10 +70,10 @@ class _AdressPageState extends State<AdressPage> {
             mapType: MapType.normal,
             myLocationEnabled: true,
             myLocationButtonEnabled: false,
-            markers: _markers, // ← هنا
+            markers: _markers, 
           ),
 
-          // كونتينر العنوان
+          
           Positioned(
             top: 16,
             left: 16,
@@ -110,8 +110,6 @@ class _AdressPageState extends State<AdressPage> {
             ),
           ),
 
-          // زر "Locate Me" في وسط الشاشة فوق زر استمرار
-          // زر "حدد موقعي"
           Positioned(
             bottom: 100,
             right: 16,
@@ -157,7 +155,7 @@ class _AdressPageState extends State<AdressPage> {
             ),
           ),
 
-          // زر الاستمرار
+        
           Positioned(
             bottom: 20,
             left: 16,
@@ -169,9 +167,9 @@ class _AdressPageState extends State<AdressPage> {
                   borderRadius: BorderRadius.circular(64),
                 ),
                 backgroundColor: _locationSelected
-                    ? const Color(0xff2B70B1) // اللون الأزرق
-                    : Colors.grey.shade400, // اللون الرمادي
-                // ↓↓↓ هذا مهم جدًا لإجبار الزر يظهر باللون حتى لما يكون معطّل
+                    ? const Color(0xff2B70B1) 
+                    : Colors.grey.shade400, 
+                
                 foregroundColor: Colors.white,
                 disabledBackgroundColor: Colors.grey.shade400,
                 disabledForegroundColor: Colors.white,
@@ -185,7 +183,7 @@ class _AdressPageState extends State<AdressPage> {
                         ),
                       );
                     }
-                  : null, // غير نشط إلا بعد تحديد الموقع
+                  : null, 
               child: const Text('Continue', style: TextStyle(fontSize: 18)),
             ),
           ),

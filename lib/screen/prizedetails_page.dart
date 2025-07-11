@@ -9,7 +9,7 @@ class PrizedetailsPage extends StatefulWidget {
 }
 
 class _PrizedetailsPageState extends State<PrizedetailsPage> {
-  int selectedIndex = 1; // ✅ Prize Details هو النشط هنا
+  int selectedIndex = 1;     
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,6 @@ class _PrizedetailsPageState extends State<PrizedetailsPage> {
                 selectedIndex = index;
               });
               if (index == 0) {
-                // إذا ضغط على Offer Details → عد للصفحة السابقة
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(

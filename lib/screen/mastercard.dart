@@ -82,7 +82,7 @@ class Mastercard extends StatelessWidget {
                         actions: [
                           TextButton(
                             onPressed: () {
-                              Navigator.pop(context); // يغلق البوباب
+                              Navigator.pop(context); 
                               Navigator.pushReplacement(
                                 context,
                                 MaterialPageRoute(
@@ -159,7 +159,7 @@ class Cards extends StatelessWidget {
           decoration: InputDecoration(
             contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
             hintText: text,
-            border: InputBorder.none, // إزالة الخط الافتراضي
+            border: InputBorder.none, 
           ),
           style: TextStyle(fontSize: 16, color: Color(0xffB0B0B0)),
         ),
@@ -175,7 +175,7 @@ class Cards2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // نحدد نصف عرض الشاشة تقريباً مع مراعاة بعض الهوامش
+    
     double width = MediaQuery.of(context).size.width / 2 - 24;
 
     return Container(

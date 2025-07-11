@@ -16,10 +16,10 @@ class Phones extends StatelessWidget {
           'Phones',
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
         ),
-        centerTitle: true, // ← يجعل العنوان في المنتصف
+        centerTitle: true, 
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 16), // ← المسافة من اليمين
+            padding: const EdgeInsets.only(right: 16), 
             child: IconButton(
               icon: const Icon(
                 Icons.search,
@@ -27,7 +27,7 @@ class Phones extends StatelessWidget {
                 color: Color(0xffB0B0B0),
               ),
               onPressed: () {
-                // عند الضغط على الأيقونة
+                
               },
             ),
           ),
@@ -188,7 +188,7 @@ class _PhonessState extends State<Phoness> {
       ),
       child: Stack(
         children: [
-          // المحتوى الرئيسي
+        
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -373,7 +373,7 @@ class _PhonessState extends State<Phoness> {
             ],
           ),
 
-          // أيقونة المفضلة
+    
           Positioned(
             top: 8,
             right: 8,

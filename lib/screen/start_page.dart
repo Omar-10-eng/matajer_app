@@ -26,7 +26,6 @@ class StartPage extends StatelessWidget {
             ),
             const SizedBox(height: 40),
 
-            // ======= Sign Up Button (أزرق) =======
             GestureDetector(
               onTap: () {
                 Navigator.push(
@@ -55,7 +54,6 @@ class StartPage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // ======= Log In Button (أبيض بخط رمادي) =======
             GestureDetector(
               onTap: () {
                 Navigator.push(
@@ -94,7 +92,6 @@ class StartPage extends StatelessWidget {
             ),
             const SizedBox(height: 40),
 
-            // ======= Social Icons with Border =======
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 100),
               child: Row(

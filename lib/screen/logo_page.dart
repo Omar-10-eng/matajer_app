@@ -35,7 +35,7 @@ class _logopage extends State<LogoPage>
 
     _controller.forward();
 
-    // ← بعد انتهاء الأنيميشن، يمكن التنقل لصفحة أخرى
+    
     Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => StartPage()));
     });
@@ -64,7 +64,7 @@ class _logopage extends State<LogoPage>
             );
           },
           child: Image.asset(
-            'assets/logo1.png', // ← استبدله بمسار اللوجو الخاص بك
+            'assets/logo1.png', 
             width: 160,
             height: 160,
           ),
