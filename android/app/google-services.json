@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431972680884",
+    "project_id": "matajer-c3597",
+    "storage_bucket": "matajer-c3597.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431972680884:android:ad847813aae7717e8143e1",
+        "android_client_info": {
+          "package_name": "com.example.my_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431972680884-ljsfdmqcjs4qeu2rr05hho8j7ra98q6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzWvCsHamALOb0xW7Zp6kjEldn6bEwoWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431972680884-ljsfdmqcjs4qeu2rr05hho8j7ra98q6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
