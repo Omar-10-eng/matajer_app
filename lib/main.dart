@@ -10,11 +10,11 @@ import 'firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp( // ← ده مهم جدًا
+  await Firebase.initializeApp(  
     options: DefaultFirebaseOptions.currentPlatform,
   );
  
-  await ThemeController.loadTheme(); // تحميل الثيم المحفوظ
+  await ThemeController.loadTheme(); 
 
   runApp(const MyApp());
 }
